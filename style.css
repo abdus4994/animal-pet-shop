@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.service {
+    background-image: url(image/service_bg.png);
+    background-size: cover;
+
+    
+}
+
+.service-item-img {
+    width: 205px;
+}
+
+.friend {
+    background-image: url(image/what_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Categories {
+    background-image: url(image/service_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Our-activities {
+    background-image: url(image/activity_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#clients-section {
+    background-image: url(image/testimonial_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#message-section {
+    background-image: url(image/newsletter_bg.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}

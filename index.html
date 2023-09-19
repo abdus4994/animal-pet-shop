@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Pet Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header id="header" class="flex flex-col items-center md:flex-row md:justify-between mx-20 bg-white-400 md:mr-40">
+        <div class="header__logo">
+            <img  src="image/logo.png" alt="logo">
+        </div>
+        <div class="haader__menu px-10">
+            <ul class="flex gap-x-10 py-6 text-sm  items-center">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#page">Page</a></li>
+                <li><a class="bg-[#022D61] p-2 rounded text-white block text-center w-[80px] " href="#buy-btn">Buy Now</a></li>
+            </ul>
+        </div>
+        <div class="header__social-icon hidden md:block ">
+            <ul class="flex gap-1 py-6  text-white">
+                <li><a href="#facebook"><i class='bx bxl-facebook-circle bg-[#42B0E2] rounded-full p-1 '></i></a></li>
+                <li><a href="instagram"><i class='bx bxl-instagram-alt bg-[#42B0E2] rounded-full p-1' ></i></a></li>
+                <li><a href="#twitter"><i class='bx bxl-twitter bg-[#42B0E2] rounded-full p-1'></i></a></li>
+                <li><a href="#youtube"><i class='bx bxl-youtube bg-[#42B0E2] rounded-full p-1' ></i></a></li>
+                <li><a href="#pinterest"><i class='bx bxl-pinterest-alt bg-[#42B0E2] rounded-full p-1' ></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- banner section---------------------------------------------------- -->
+    <section id="banner">
+        <div class="banner-section relative  ">
+            <img class="md:w-full" src="image/slide.png" alt="slide">
+            <div class="banner__content flex flex-col gap-y-6 w-1/2 sm:w-96 m-1 sm:m-10 sm:absolute sm:top-12 sm:left-32 text-white  absolute left-0 top-0">
+                <h1 class=" text-sm md:text-3xl font-bold tracking-wide text-base">Helping Your Pets Get Rids of Annoying Pets</h1>
+                <p class="my-3 sm:text-sm hidden md:block">Lorem ipsum dolor sit amet nsectetur cing elit. Suspe ndisse suscipit sagittis leo sit met entum estibulum dignissim.</p>
+                <a class="bg-[#A3D256] text-white w-[120px] rounded p-2" href="#">Read More</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About us Section-------------------------------------------- -->
+    <section id="about-us">
+        <div class="about-us flex mt-16 mx-20 flex-col sm:flex-row  gap-x-3">
+            <div class="about-us__img flex-1 sm:flex-col">
+                <img src="image/about_left.png" alt="about left">
+            </div>
+            <div class="about-us__contain flex-1 mt-6  ">
+                <h1 class="text-4xl font-bold text-[#022D61]">About Us</h1>
+                <h4 class="mt-4 text-4xl text-[#42B0E8]">Lorem ipsum dolor sit amet</h4>
+                <p class="mt-4 mb-28 text-xs leading-7   w-[95%]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+                <img src="image/about_bottom.png" alt="about bottom">
+            </div>
+        </div>
+    </section>
+    <!-- Services Section------------------------------------------------------------------- -->
+    <section id="service-section">
+        <div class="service bg-no-repeat">
+            <div class="service-heading pt-16 pb-6 py-16  text-center md:w-1/2 md:mx-auto">
+                <h1 class="text-3xl font-bold text-white">Our Services</h1>
+                <p class="text-sm mt-3 px-16 text-slate-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+            </div>
+
+            <div class="service-img flex flex-col items-center pb-16 gap-y-4 md:flex-row md:justify-center md:gap-x-16">
+                <img class="service-item-img" src="image/service1.png" alt="">
+                <img class="service-item-img" src="image/service2.png" alt="">
+                <img class="service-item-img" src="image/service3.png" alt="">
+                <img class="service-item-img" src="image/service4.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Our Features-------------------------------------------------------- -->
+
+    <section id="our-features" class="mt-16 mx-16">
+        <div class="our-features-heading mt-6 flex flex-col text-center">
+            <h1 class="text-2xl font-bold text-[#022D61] md:text-4xl">Our Features</h1>
+            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+        </div>
+        
+        <div class="feature__content w-full flex flex-col  pt-6 md:flex-row md:h-[650px] ">
+            <div class="grid grid-cols-1 md:grid-rows-4 pt-6 gap-3">
+                <div class="feature__content-item flex flex-col text-center md:text-right items-center gap-3 md:items-end w-full ">
+                    <img  class="w-16" src="image/icon1.png" alt="icon 1">
+                    <h4 class="text-3xl font-semibold">Natural products</h4>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                </div>
+
+                <div class="feature__content-item my-6 flex flex-col text-center md:text-right items-center gap-3 md:items-end w-full ">
+                    <img  class="w-16" src="image/icon2.png" alt="icon 1">
+                    <h4 class="text-3xl font-semibold">Vet care</h4>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                </div>
+
+                <div class="feature__content-item mt-14 flex flex-col text-center md:text-right items-center gap-3 md:items-end w-full ">
+                    <img  class="w-16" src="image/icon3.png" alt="icon 1">
+                    <h4 class="text-3xl font-semibold">Training</h4>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-rows-4 pt-6 gap-3">
+                <img src="image/feature_center.png" alt="">
+               
+            </div>
+
+
+            <div class="grid grid-cols-1 md:grid-rows-4 pt-6">
+                <div class="feature__content-item flex flex-col text-center md:text-left items-center gap-3 md:items-start w-full ">
+                    <img  class="w-16" src="image/icon1.png" alt="icon 1">
+                    <h4 class="text-3xl font-semibold">Natural products</h4>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                </div>
+
+                <div class="feature__content-item my-6 flex flex-col text-center items-center md:text-left gap-3 md:items-start w-full ">
+                    <img  class="w-16" src="image/icon2.png" alt="icon 1">
+                    <h4 class="text-3xl font-semibold">Vet care</h4>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                </div>
+                
+                <div class="feature__content-item mt-14 flex flex-col text-center items-center md:text-left gap-3 md:items-start w-full ">
+                    <img  class="w-16" src="image/icon3.png" alt="icon 1">
+                    <h4 class="text-3xl font-semibold">Training</h4>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- find Friend Section----------------------------------------- -->
+
+    <section id="friend">
+        <div class="friend flex flex-col md:flex-row md:items-center p-16">
+            <div class="friend__content flex-1 text-white text-center md:text-left">
+                <h1 class="text-3xl font-bold">Find Your Friend</h1>
+                <h3 class="text-2xl my-2 font-semibold">Adopting is an act of love</h3>
+                <p class="text-sm leading-6 mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure.</p>
+                <a class="bg-white text-[#022D61] rounded-full font-bold px-6 py-2" href="#">Book Now</a>
+            </div>
+
+            <div class="friend__img flex-1 ">
+                <img class="w-full md:pl-16" src="image/what_right.png" alt="">
+            </div>
+
+        </div>
+    </section>
+<!-- Gallery Section-------------------------------------------- -->
+    <div id="gallary-section">
+        <div class="gallery__heading text-center m-6">
+            <h1 class="text-4xl text-[#022D61] font-bold py-4">Our Gallery</h1>
+            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+        </div>
+
+        <div class="gallery__img grid md:grid-cols-3 gap-6 mx-16">
+            <div>
+                <img class="mb-4" src="image/gallery1.png" alt="">            
+                <img src="image/gallery2.png" alt="">
+            </div>
+            <div>
+                <img class="mb-4" src="image/gallery3.png" alt="">
+                <img src="image/gallery4.png" alt="">
+            </div>
+            <div>
+                <img class="mb-4" src="image/gallery5.png" alt="">
+                <img src="image/gallery6.png" alt="">
+            </div>
+            
+        </div>
+
+    </div>
+<!-- Categories Section----------------------------------------- -->
+    <section id="Categories" class="mt-16 py-16">
+        <div class="Categories-heading text-center">
+            <h1 class="text-3xl text-white p-2">Categories</h1>
+            <p class="text-sm text-white">Shop For Your Pet</p>
+        </div>
+        <div class="Categories__food flex flex-col items-center p-4 gap-6 md:flex-row px-16">
+            <div class="text-white text-center flex flex-col gap-4">
+                <img src="image/cat1.png" alt="">
+                <p>Cat Food</p>
+            </div>
+            <div class="text-white text-center flex flex-col gap-4">
+                <img src="image/cat2.png" alt="">
+                <p>Dog Toys</p>
+            </div>
+
+            <div class="text-white text-center flex flex-col gap-4">
+                <img src="image/cat3.png" alt="">
+                <p>Cat Food</p>
+            </div>
+
+            <div class="text-white text-center flex flex-col gap-4">
+                <img src="image/cat4.png" alt="">
+                <p>Pets House</p>
+            </div>
+            
+            <div class="text-white text-center flex flex-col gap-4">
+                <img src="image/cat5.png" alt="">
+                <p>Dog Food</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Activities Section-------------------------------------------- -->
+
+    <section id="Our-activities"  class="py-8">
+        <h1 class="text-3xl text-[#022D61] p-2 text-center">Our Activities</h1>
+        <p class="text-sm text-center">Our activities and experience</p>
+
+        <div class="activities py-10 md:flex">
+            <img src="image/activity_left.png" alt="left image">
+
+            <div class="activities__desc py-4 ">
+               
+                <p class="text-[10px] leading-8 py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+                
+                <div class="project__active md:pt-8 px-6 flex flex-col md:flex-row gap-4 justify-evenly flex-wrap md:w-[400px]">
+                    <div class="project__done md:w-[150px]  py-2 rounded bg-[#022D61] text-center text-white">
+                        <span class="font-semibold text-2xl">2000+</span>
+                        <hr>
+                        <p class="text-base">Project Done</p>
+                    </div>
+                    <div class="project__done md:w-[150px]  py-2  rounded bg-[#022D61] text-center text-white">
+                        <span class="font-semibold text-2xl">28+</span>
+                        <hr>
+                        <p class="text-base">Awards Winner</p>
+                    </div>
+                    <div class="project__done md:w-[150px]   py-2 rounded bg-[#022D61] text-center text-white">
+                        <span class="font-semibold text-2xl">300+</span>
+                        <hr>
+                        <p class="text-base">Team Workers</p>
+                    </div>
+                    <div class="project__done md:w-[150px]   py-2 rounded bg-[#022D61] text-center text-white">
+                        <span class="font-semibold text-2xl">2100+</span>
+                        <hr>
+                        <p class="text-base">Happy Clients</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Care  Section-------------------------------------------- -->
+     <section id="care-section" class="py-16">
+       <div class="care flex flex-col mx-6 md:flex-row gap-4 md:mx-20">
+        <div class="care__left relative">
+            <img src="image/how1.png" alt="">
+            <div class="care__desc gap-y-6 md:gap-y-2  absolute top-6 left-4 text-white flex flex-col ">
+                <h2 class="text-3xl">Pet Boarding & Daycare</h2>
+                <p class="bg-[#42B0E2] inline px-6 md:py-1 w-44">Up to 50% off</p>
+                <p class="w-2/3 hidden md:block">Lorem ipsum dolor  ipsum dolor. a nderit, soluta sed laboriosam, rem eveniet ipsum magnam possimus nulla rerum natus?</p>
+                <p class="border rounded-3xl text-center px-4 py-2 w-36">Shop Now</p>
+            </div>
+        </div>
+        <div class="care__right relative">
+            <img src="image/how2.png" alt="">
+            <div class="care__desc gap-y-6 md:gap-y-2  absolute top-6 left-4 text-white flex flex-col ">
+                <h2 class="text-3xl">Discount Pet Accessries</h2>
+                <p class="bg-[#42B0E2] inline px-6 py-1 w-44">Up to 50% off</p>
+                <p class="w-2/3 hidden md:block">Lorem ipsum dolor ipsum dolor. a nderit, soluta sed laboriosam, rem eveniet ipsum magnam possimus nulla rerum natus?</p>
+                <p class="border rounded-3xl text-center px-4 py-2 w-36">Shop Now</p>
+            </div>
+        </div>
+       </div>
+     </section>
+
+     <section id="clients-section" class="flex justify-center">
+        <div class="clients__desc justify-center  bg-white rounded-full w-[400px] h-[400px] flex flex-col gap-y-4 items-center p-6">
+            <h1 class="text-3xl text-[#022D61] font-bold">What Clients Say</h1>
+            <p class="text-[#727272]">Lorem, ipsum dolor</p>
+            <p class="text-sm text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, ex optio iste ut iure reiciendis at sunt libero earum rem atque vitae quasi ratione consectetur nesciunt, voluptatem possimus eligendi. Amet sapiente, fugit similique reprehenderit odio nam culpa qui!</p>
+            <div class="flex flex-col items-center">
+                <h6 class="font-semibold text-[#727272]">Lorem ipsum</h6>
+                <p class="text-sm">Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+     </section>
+ <!-- News Section-------------------------------------------- -->
+     <section id="news-section" class="my-10 px-14">
+        <h1 class="mb-4 text-2xl md:text-4xl text-center font-bold text-[#022D61]">Read Our Latest News</h1>
+        <p class="text-sm text-center mb-6 leading-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+
+        <div class="news-contain flex flex-col items-center md:flex-row gap-y-4 md:gap-x-4">
+            <div class="relative">
+                <img src="image/latest-news3.png" alt="">
+                <div class="absolute left-16 bottom-10 px-6 py-2 flex flex-col items-center justify-center bg-white mx-4">
+                    <p class="font-semibold" >Lorem ipsum dolor sit.</p>
+                    <p class="text-sm">11 June 2023</p>
+                </div>
+            </div>
+
+            <div class="relative">
+                <img src="image/latest-news2.png" alt="">
+                <div class="absolute left-16 bottom-10 px-6 py-2 flex flex-col items-center justify-center bg-white mx-4">
+                    <p class="font-semibold" >Lorem ipsum dolor sit.</p>
+                    <p class="text-sm">11 June 2023</p>
+                </div>
+            </div>
+
+            <div class="relative">
+                <img src="image/latest-news1.png" alt="">
+                <div class="absolute left-16 bottom-10 px-6 py-2 flex flex-col items-center justify-center bg-white mx-4">
+                    <p class="font-semibold" >Lorem ipsum dolor sit.</p>
+                    <p class="text-sm">11 June 2023</p>
+                </div>
+            </div>
+            
+        </div>
+     </section>
+
+      <!-- Message Section-------------------------------------------- -->
+     <section id="message-section" class=" md:bg-top md:bg-cover">
+        <div class="message">
+            <div class="message__bg ">
+                <!-- <img class="bg-left" src="image/newsletter_bg.png" alt=""> -->
+
+                <div class="message__desc text-center flex flex-col items-center md:items-end md:p-24 mr-20 ">
+                    <h1 class="text-3xl text-white mb-4">Get a quote for pet boarding</h1>
+                    <form action="">
+                        <div >
+                            <p class="text-white">Your name</p>
+                        <input class="w-80 outline-none md:w-96 mx-16 py-2 px-10 rounded-3xl mb-4" type="text">
+                        </div>
+
+                        <div>
+                            <p class="text-white">Your email</p>
+                        <input class="w-80 outline-none md:w-96 mx-16 py-2 px-10 rounded-3xl mb-4" type="text">
+                        </div>
+
+                        <div>
+                            <p class="text-white">Subject</p>
+                        <input class="w-80 outline-none md:w-96 mx-16 py-2 px-10 rounded-3xl mb-4" type="text">
+                        </div>
+
+                        <div>
+                            <p class="text-white">Your message (optional)</p>
+                        <input class="w-80 outline-none md:w-96 mx-16 py-6 px-10 rounded-3xl mb-4" type="text">
+                        </div>
+                        <button class="text-xl text-white px-6 h-8 rounded-3xl bg-[#42B0E2]">Submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- footer Section-------------------------------------------- -->
+     <section id="footer-section" class="my-6 relative">
+        <div class="grid md:grid-cols-6 gap-y-2 mx-16 ">
+            <div class="footer__about md:w-52 ">
+                <h2 class="text-2xl text-[#022D61] font-bold text-center md:text-left">About Us</h2>
+                <p class="text-center md:text-left text-sm">The KrystalKlean is built for Industrial Cleaning Companies but is suitable for all that provide cleaning services. Novice or experienced with WordPress </p>
+                <div class="header__social-icon md:block ">
+                    <ul class="flex gap-x-2 py-6  text-white justify-center md:justify-start">
+                        <li><a href="#facebook"><i class='bx bxl-facebook-circle bg-[#42B0E2] rounded-full p-1 '></i></a></li>
+                        <li><a href="instagram"><i class='bx bxl-instagram-alt bg-[#42B0E2] rounded-full p-1' ></i></a></li>
+                        <li><a href="#twitter"><i class='bx bxl-twitter bg-[#42B0E2] rounded-full p-1'></i></a></li>
+                        <li><a href="#youtube"><i class='bx bxl-youtube bg-[#42B0E2] rounded-full p-1' ></i></a></li>
+                        <li><a href="#pinterest"><i class='bx bxl-pinterest-alt bg-[#42B0E2] rounded-full p-1' ></i></a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="footer__newsletter flex flex-col gap-y-4 items-center md:items-start  md:w-52">
+                <h2 class="text-2xl text-[#022D61] font-bold text-center">Newsletter</h2>
+                <input class="mx-6 md:mx-1 border p-2 rounded-3xl border-[#DC7575] md:w-[200px]" type="text">
+                <button class="border uppercase py-2 w-36 md:w-[100px] rounded-3xl border-[#DC7575]">Signup</button>
+            </div>
+    
+            <div class="footer__buy-now  md:w-[200px]">
+                <h2 class="text-2xl text-[#022D61] font-bold text-center">Buy Now</h2>
+                <ul class="flex flex-col gap-y-2 py-2 text-sm  items-center">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#page">Page</a></li>
+                    <li><a class="rounded  block text-center " href="#buy-btn">Buy Now</a></li>
+                </ul>
+            </div>
+    
+            <div class="recent-post  md:w-[200px]">
+                <h2 class="text-2xl text-[#022D61] font-bold text-center md:text-left">Recent Post</h2>
+                <div class=" my-2">
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p class="md:my-8">Lorem ipsum dolor sit.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+    
+            <div class="image md:col-span-2 mx-auto z-10">
+                <img class="z-10" src="image/dog.png" alt="">
+            </div>
+        </div>
+        <div class="bg-[#022D61] w-full text-white gap-y-8 py-6 md:pr-[340px] md:pl-[100px] text-base flex md:flex-row flex-col items-center md:justify-between md:absolute md:top-[297px] ">
+            <p class="text-center px-10 md:px-2 leading-8">Wordpress Theme 2020 Design & Developed by <span class="text-red-400 text-xl uppercase">Md: Abdus Salam</span></p>
+            
+            <ul class="flex gap-x-2  text-white ">
+                <li><a href="#facebook"><i class='bx bxl-facebook-circle bg-[#42B0E2] rounded-full p-2 '></i></a></li>
+                <li><a href="instagram"><i class='bx bxl-instagram-alt bg-[#42B0E2] rounded-full p-2' ></i></a></li>
+                <li><a href="#twitter"><i class='bx bxl-twitter bg-[#42B0E2] rounded-full p-2'></i></a></li>
+                <li><a href="#youtube"><i class='bx bxl-youtube bg-[#42B0E2] rounded-full p-2' ></i></a></li>
+                <li><a href="#pinterest"><i class='bx bxl-pinterest-alt bg-[#42B0E2] rounded-full p-2' ></i></a></li>
+            </ul>
+
+        </div>
+
+     </section>
+    
+</body>
+</html>
